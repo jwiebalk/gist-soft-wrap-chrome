@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "GistSoftWrapDefault",
+    "name": "Gist Soft Wrap Default",
      "author": "John Wiebalk",
     "version": "1.0",
     "description": "Set SoftWrap to default on Gist",
