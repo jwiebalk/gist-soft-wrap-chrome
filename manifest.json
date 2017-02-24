@@ -5,7 +5,7 @@
     "version": "1.0",
     "description": "Sets Soft Wrap as default Wrap mode when creating a new Gist on GitHub.com",
     "content_scripts" : [{
-        "matches" : [ "*://gist.github.com/*"],
+        "matches" : [ "*://gist.github.com/*", "*://github.com/*"],
         "js" : ["gistSoftWrap.js"],
         "run_at": "document_end"
     }]
