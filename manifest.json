@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "GistSoftWrapDefault",
+     "author": "John Wiebalk",
+    "version": "1.0",
+    "description": "Set SoftWrap to default on Gist",
+    "content_scripts" : [{
+        "matches" : [ "*://gist.github.com/*"],
+        "js" : ["gistSoftWrap.js"],
+        "run_at": "document_end"
+    }]
+}
