@@ -9,4 +9,4 @@ element[0].form[11].nextElementSibling.className += ' CodeMirror-wrap';
 }
 
 
-setTimeout(changeContent(), 1000)
+setTimeout(changeContent(), 100)
